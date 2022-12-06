@@ -1,0 +1,724 @@
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .navbar{
+        top: 5px;
+    }
+    button.navbar-toggler {
+        border: 0;
+    }
+    button.navbar-toggler i{
+        color: rgba(255, 228, 196, 0.8);
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+    .navbar form .btn {
+        padding: 10px 25px !important;
+        font-size: 15px;
+    }
+    #banner_slider .banner_part .overlay h1{
+        font-size: 36px;
+        width: auto;
+    }
+    #banner_slider .banner_part .overlay p{
+        font-size: 13px;
+        width: auto;
+        margin: 15px 0 18px;
+    }
+    #banner_slider .banner_part .overlay {
+        padding: 165px 0 15px !important;
+        width: 100%;
+    }
+    /* .banner_part .overlay {
+        padding: 165px 0 15px;
+    } */
+    /* ======================= */
+    #Success_part {
+        margin: 46px 0 78px;
+    }
+    #Success_part .text h2 {
+        width: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #Success_part .text h3 {
+        font-weight: auto;
+        text-align: center;
+    }
+    #Success_part .counter_main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #Success_part .counter_main .counter {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    /* ======================= */
+    .title h2 {
+        font-size: 28px;
+        line-height: 10px;
+    }
+    .title p {
+        text-align: center;
+        width: auto;
+        margin-top: 20px;
+    }
+    #services_part .card1 .text p {
+        width: auto;
+    }
+    #services_part .title p {
+        width: auto;
+    }
+    #work_part .title p {
+        width: auto;
+    }
+    /* ==================== */
+    #agency_part .title p {
+        width: auto;
+    }
+     #agency_part .title h2{
+        line-height: 30px;
+        width: auto;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        text-align: center;
+    }
+    #agency_part .agency .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agency_part .agency-profile {
+        display: none;
+    }
+    #agency_part .agency .top{
+        margin-bottom: 30px;
+    }
+    #agency_part .agency .top:last-child{
+        margin-bottom: 30px;
+    }
+    
+    /* ================ */
+    /* ================ */
+    #client_part .title p {
+        width: auto;
+    }
+    /* ================ */
+    #from_part {
+        padding: 10px;
+    }
+    #from_part .text h2 {
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+    }
+    #from_part .text p {
+        width: auto;
+        text-align: center;
+    }
+    #from_part .form {
+        background: rgb(231, 228, 228);
+        width: auto;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+    #from_part .form form input {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #contact_part p {
+        width: auto;
+        margin: 10px 0 10px;
+    }
+    #contact_part ul {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar{
+        top: 5px;
+    }
+    button.navbar-toggler {
+        border: 0;
+    }
+    button.navbar-toggler i{
+        color: rgba(255, 228, 196, 0.8);
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+    .navbar form .btn {
+        padding: 10px 25px !important;
+        font-size: 15px;
+    }
+    #banner_slider .banner_part .overlay h1{
+        font-size: 36px;
+        width: auto;
+    }
+    #banner_slider .banner_part .overlay p{
+        padding: 120px 0 15px !important;
+        font-size: 13px;
+        width: auto;
+        margin: 15px 0 18px;
+    }
+    #banner_slider .banner_part .overlay {
+        padding: 120px 0 15px !important;
+    }
+    /* ======================= */
+    #Success_part {
+        margin: 46px 0 78px;
+    }
+    #Success_part .main {
+        background: #E0FFF9;
+        padding: 30px 20px !important;
+        border-radius: 20px;
+    }
+    #Success_part .text h2 {
+        width: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #Success_part .text h3 {
+        font-weight: auto;
+        text-align: center;
+    }
+    #Success_part .counter_main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    #Success_part .counter_main .counter {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    #Success_part .counter_main .counter h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 61px;
+        color: #151515;
+    }
+    /* ======================= */
+    .title h2 {
+        font-size: 28px;
+        line-height: 10px;
+    }
+    .title p {
+        text-align: center;
+        width: auto;
+        margin-top: 20px;
+    }
+    /* ======================= */
+    /* ======================= */
+    #services_part .card1 {
+        padding: 14px 14px 14px !important;
+    }
+    #services_part .card1 .text h3 {
+        margin: 15px 0 15px;
+        font-size: 22px;
+    }
+     #services_part .card1 .text p {
+        width: auto;
+    }
+    #services_part .title p {
+        width: auto;
+    }
+    /* ==================== */
+    /* ==================== */
+    #work_part {
+        padding: 20px 0 20px !important;
+    }
+    #work_part .title p {
+        width: auto;
+        padding: 0;
+    }
+    #work_part .text {
+        padding: 15px 20px;
+    }
+    #work_part .text h3 {
+        padding: 15px;
+        font-size: 17px;
+    }
+    #work_part .text p{
+        font-size: 11px;
+    }
+    /* ==================== */
+    #agency_part {
+        margin: 50px 0 50px;
+    }
+    #agency_part .title p {
+        width: auto;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        padding: 0 11px;
+    }
+     #agency_part .title h2{
+        line-height: 30px;
+        width: auto;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        text-align: center;
+    }
+    #agency_part .agency .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agency_part .agency .top{
+        margin-bottom: 30px;
+    }
+    #agency_part .agency .top:last-child{
+        margin-bottom: 30px;
+    }
+    /* ================ */
+    /* ================ */
+    #client_part .title p {
+        width: auto;
+    }
+    /* ================ */
+    #from_part {
+        padding: 10px;
+    }
+    #from_part .text h2 {
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+    }
+    #from_part .text p {
+        width: auto;
+        text-align: center;
+    }
+    #from_part .form {
+        background: rgb(231, 228, 228);
+        width: auto;
+        padding: 10px 10px;
+        margin: 20px 0 20px;
+    }
+    #from_part .form form input {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #contact_part p {
+        width: auto;
+        margin: 10px 0 10px;
+    }
+    #contact_part ul {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar{
+        top: 5px;
+    }
+    button.navbar-toggler {
+        border: 0;
+    }
+    button.navbar-toggler i{
+        color: rgba(255, 228, 196, 0.8);
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+    .navbar form .btn {
+        padding: 10px 25px !important;
+        font-size: 15px;
+    }
+    #banner_slider .banner_part .overlay h1 {
+        font-size: 36px;
+        width: auto;
+    }
+    #banner_slider .banner_part .overlay p {
+        font-size: 14px;
+        width: auto;
+        margin: 25px 0 40px;
+    }
+    #banner_slider .banner_part .overlay{
+        padding: 100px 0 20px !important;
+    }
+    /* ======================= */
+    #Success_part {
+        margin: 46px 0 78px;
+    }
+    #Success_part .main {
+        background: #E0FFF9;
+        padding: 30px 20px !important;
+        border-radius: 20px;
+    }
+    #Success_part .text h2 {
+        width: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #Success_part .text h3 {
+        font-weight: auto;
+        text-align: center;
+    }
+    #Success_part .counter_main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    #Success_part .counter_main .counter {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    #Success_part .counter_main .counter h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 61px;
+        color: #151515;
+    }
+    /* ======================= */
+    .title h2 {
+        font-size: 28px;
+        line-height: 10px;
+    }
+    .title p {
+        text-align: center;
+        width: auto;
+        margin-top: 20px;
+    }
+    /* ======================= */
+    /* ======================= */
+    #services_part .card1 {
+        padding: 14px 14px 14px !important;
+    }
+    #services_part .card1 .text h3 {
+        margin: 15px 0 15px;
+        font-size: 22px;
+    }
+     #services_part .card1 .text p {
+        width: auto;
+    }
+    #services_part .title p {
+        width: auto;
+    }
+    /* ==================== */
+    /* ==================== */
+    #work_part {
+        padding: 20px 0 20px !important;
+    }
+    #work_part .title p {
+        width: auto;
+        padding: 0;
+    }
+    #work_part .text {
+        padding: 15px 20px;
+    }
+    #work_part .text h3 {
+        padding: 15px;
+        font-size: 17px;
+    }
+    #work_part .text p{
+        font-size: 11px;
+    }
+    /* ==================== */
+    #agency_part {
+        margin: 50px 0 50px;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        padding: 0 11px;
+    }
+     #agency_part .title h2{
+        line-height: 30px;
+        width: auto;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        text-align: center;
+    }
+    #agency_part .agency .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agency_part .agency .top{
+        margin-bottom: 30px;
+    }
+    #agency_part .agency .top:last-child{
+        margin-bottom: 30px;
+    }
+    .agency-profile{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .agency-profile img{
+        width: 100%;
+        border-radius: 30px;
+    }
+    /* ================ */
+    /* ================ */
+    #client_part .title p {
+        width: auto;
+    }
+    /* ================ */
+    #from_part {
+        padding: 10px;
+    }
+    #from_part .text h2 {
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+    }
+    #from_part .text p {
+        width: auto;
+        text-align: center;
+    }
+    #from_part .form {
+        background: rgb(231, 228, 228);
+        width: auto;
+        padding: 10px 10px;
+        margin: 20px 0 20px;
+    }
+    #from_part .form form input {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #contact_part p {
+        width: auto;
+        margin: 10px 0 10px;
+    }
+    #contact_part ul {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* =================== */
+    .navbar .navbar-nav .nav-item {
+        margin-left: 48px;
+    }
+    /* ================ */
+    #banner_part .overlay p {
+        font-size: 14px;
+        width: auto;
+    }
+    #banner_slider .banner_part .overlay h1 {
+        font-size: 36px;
+        width: auto;
+        padding: 49px 180px;
+    }
+    #banner_slider .banner_part .overlay p{
+        font-size: 14px;
+        width: auto;
+    }
+    #banner_slider .banner_part .overlay{
+        padding: 100px 0 20px !important;
+    }
+    /* ======================= */
+    #Success_part {
+        margin: 46px 0 78px;
+    }
+    #Success_part .main {
+        background: #E0FFF9;
+        padding: 30px 20px !important;
+        border-radius: 20px;
+    }
+    #Success_part .text h2 {
+        width: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #Success_part .text h3 {
+        font-weight: auto;
+        text-align: center;
+    }
+    #Success_part .counter_main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    #Success_part .counter_main .counter {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    #Success_part .counter_main .counter h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 61px;
+        color: #151515;
+    }
+    /* ======================= */
+    .title h2 {
+        font-size: 28px;
+        line-height: 10px;
+    }
+    .title p {
+        text-align: center;
+        width: auto;
+        margin-top: 20px;
+    }
+    /* ======================= */
+    /* ======================= */
+    #services_part .card1 {
+        padding: 14px 14px 14px !important;
+    }
+    #services_part .card1 .text h3 {
+        margin: 15px 0 15px;
+        font-size: 22px;
+    }
+     #services_part .card1 .text p {
+        width: auto;
+    }
+    #services_part .title p {
+        width: auto;
+    }
+    /* ==================== */
+    /* ==================== */
+    #work_part {
+        padding: 20px 0 20px !important;
+    }
+    #work_part .title p {
+        width: auto;
+        padding: 0;
+    }
+    #work_part .text {
+        padding: 15px 20px;
+    }
+    #work_part .text h3 {
+        padding: 15px;
+        font-size: 17px;
+    }
+    #work_part .text p{
+        font-size: 11px;
+    }
+    /* ==================== */
+    #agency_part {
+        margin: 50px 0 50px;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        padding: 0 11px;
+    }
+     #agency_part .title h2{
+        line-height: 30px;
+        width: auto;
+    }
+    #agency_part .agency .top p {
+        width: auto;
+        text-align: center;
+    }
+    #agency_part .agency .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agency_part .agency .top{
+        margin-bottom: 30px;
+    }
+    #agency_part .agency .top:last-child{
+        margin-bottom: 30px;
+    }
+    .agency-profile{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .agency-profile img{
+        width: 100%;
+        border-radius: 30px;
+    }
+    /* ================ */
+    /* ================ */
+    #client_part .title p {
+        width: auto;
+    }
+    /* ================ */
+    #from_part {
+        padding: 10px;
+    }
+    #from_part .text h2 {
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+    }
+    #from_part .text p {
+        width: auto;
+        text-align: center;
+    }
+    #from_part .form {
+        background: rgb(231, 228, 228);
+        width: auto;
+        padding: 10px 10px;
+        margin: 20px 0 20px;
+    }
+    #from_part .form form input {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #contact_part p {
+        width: auto;
+        margin: 10px 0 10px;
+    }
+    #contact_part ul {
+        margin-top: 10px;
+    }
+}
